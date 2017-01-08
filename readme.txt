@@ -8,3 +8,6 @@ git status 可以让我们时刻掌握仓库当前的状态
 git diff 查看修改的内容 绿色字体
 提交修改
 git add      git commit
+git log
+git reset --hard HEAD^or commit_id 版本回退
+git reflog
