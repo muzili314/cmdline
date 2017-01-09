@@ -34,6 +34,6 @@ git rm用于删除一个文件
 创建dev分支，然后切换到dev分支 git checkout -b dev
 等同于$ git branch dev        (-d 删除分支)
 	  $ git checkout dev
-git merge命令用于合并指定分支到当前分支
+git merge命令用于合并指定分支到当前分支 应切换到master后合并否则会失去dev的commit
 git log --graph命令可以看到分支合并图
 git tag
