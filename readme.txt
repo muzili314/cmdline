@@ -10,5 +10,7 @@ git diff 查看修改的内容 绿色字体
 提交修改
 git add      git commit
 git log   查看commit信息
+git log --pretty=oneline
 git reset --hard HEAD^or commit_id 版本回退
 git reflog
+git diff HEAD -- readme.txt命令可以查看工作区和版本库里面最新版本的区别
