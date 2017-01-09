@@ -1,4 +1,5 @@
 git config --list 查看配置信息
+git help
 mkdir 'resposity path'
 cd 'resposity path'
 git init  ->生成.git
@@ -30,3 +31,9 @@ git rm用于删除一个文件
 加上了-u参数，Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令。
 以后就直接git push origin master
 从远程克隆库git clone git@github.com:muzili314/name.git
+创建dev分支，然后切换到dev分支 git checkout -b dev
+等同于$ git branch dev        (-d 删除分支)
+	  $ git checkout dev
+git merge命令用于合并指定分支到当前分支
+git log --graph命令可以看到分支合并图
+git tag
